@@ -1,3 +1,15 @@
+// أضفنا هذا الجزء الخاص بـ buildscript لتهيئة خدمات جوجل
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // هذا السطر ضروري جداً لعمل Firebase
+        classpath("com.google.gms:google-services:4.4.2")
+    }
+}
+
 allprojects {
     repositories {
         google()

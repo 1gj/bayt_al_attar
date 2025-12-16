@@ -6,7 +6,15 @@ import 'package:google_fonts/google_fonts.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+
+  try {
+    await Firebase.initializeApp();
+    print("✅ تم الاتصال بـ Firebase بنجاح");
+  } catch (e) {
+    // هذا السطر سيطبع سبب المشكلة في الـ Console بالأسفل بدلاً من الشاشة السوداء
+    print("❌ فشل الاتصال بـ Firebase: $e");
+  }
+
   runApp(const AttaraApp());
 }
 
