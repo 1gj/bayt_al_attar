@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563045192444",
+    "project_id": "baytalattar-9f290",
+    "storage_bucket": "baytalattar-9f290.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563045192444:android:bafc91695781ff96c4fd79",
+        "android_client_info": {
+          "package_name": "com.example.bayt_al_attar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpZ4Hc8YAnB79aEyc6peyygudClHFglXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
